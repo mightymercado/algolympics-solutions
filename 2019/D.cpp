@@ -15,7 +15,7 @@ int main() {
         if (a < 13) {
             puts(out[1]);
         } else {
-            puts(out[1]);
+            puts(out[0]);
         }
     } else if (rate[3] == '3') {
         if (a < 13) {
