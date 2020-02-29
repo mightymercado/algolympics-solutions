@@ -27,7 +27,7 @@ Equivalent to finding binary strings (F's and D's) corresponding to forward and 
 Dijkstra. Add another state which is the number of open doors. 
 
 ## Problem M: Thin Ice
-Can be solved by combining zigzags per quadrant. A lot of if based on the parity of the coordinates and logic. Multiple cases can be combined and code can be reduced using tricks like flipping the board by swapping L and R or U and D character.
+Can be solved by combining zigzags per quadrant. A lot of if based on the parity of the coordinates and logic. Multiple cases can be combined and code can be reduced using tricks like flipping the board by swapping L and R or U and D character. It's hard to prove a solution works for all cases so I had a bruteforce solution that I compared against to find peculiar cases I did not catch. 
 
 2019 and before:
 https://algo2020.upacm.net/past-problems
